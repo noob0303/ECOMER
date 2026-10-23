@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SỬA SẢN PHẨM"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/edtTenSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sản phẩm"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/edtLoaiSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loại sản phẩm"
+        android:inputType="textCapSentences" />
+
+    <EditText
+        android:id="@+id/edtGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Giá sản phẩm (VNĐ)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCapNhatSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật sản phẩm" />
+
+</LinearLayout>

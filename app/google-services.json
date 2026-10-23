@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "368323069897",
+    "firebase_url": "https://ecomer-ec397-default-rtdb.firebaseio.com",
+    "project_id": "ecomer-ec397",
+    "storage_bucket": "ecomer-ec397.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368323069897:android:e44475f007eb75c0204a18",
+        "android_client_info": {
+          "package_name": "com.example.ecomer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7YKtegLCLDzAhyHsL6HVxnJ7XktzyN4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

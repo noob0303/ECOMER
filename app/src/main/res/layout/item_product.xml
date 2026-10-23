@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTenSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên sản phẩm"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLoaiSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loại sản phẩm"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa" />
+
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:layout_marginStart="12dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
