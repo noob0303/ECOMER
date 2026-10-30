@@ -1,9 +1,8 @@
-
 package com.example.ecomer
 
 data class Product(
-    var id: String = "",
-    var tenSanPham: String = "",
-    var loaiSanPham: String = "",
-    var gia: Double = 0.0
+    val id: String = "",
+    val tenSanPham: String = "",
+    val loaiSanPham: String = "",
+    val gia: Long = 0L
 )
